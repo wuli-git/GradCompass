@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+myenv/
+
+# Environment secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Database (generated, can recreate with import_data.py)
+*.db
+
+# Generated data (can regenerate with synthetic_data_gen.py)
+data/processed/*.csv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

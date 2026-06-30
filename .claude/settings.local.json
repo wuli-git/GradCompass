@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ffmpeg -version)",
+      "Bash(Select-Object -First 1)",
+      "Bash(ffprobe *)",
+      "Bash(ffmpeg *)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(git add *)",
+      "Bash(git rebase *)",
+      "Bash(git rm *)"
+    ]
+  }
+}
